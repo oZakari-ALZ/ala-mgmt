@@ -14,7 +14,7 @@
   "NETWORK_TYPE": "hubNetworking",
   "MANAGEMENT_GROUP_ID": "ala",
   "PREFIX": "ala",
-  "RELEASE_VERSION": "latest",
+  "RELEASE_VERSION": "v0.20.0-pre",
   "ROOT_PARENT_MANAGEMENT_GROUP_ID": "9cbf111d-1374-4b91-ad3c-694790cba44e",
   "SECONDARYLOCATION": ""
 }

@@ -37,7 +37,7 @@ runs:
 
         $repoOrgPlusRepo = $repository.Split("/")[-2..-1] -join "/"
 
-        $repoReleaseUrl = "https://api.github.com/repos/$repoOrgPlusRepo/releases/tags/v0.20.0-pre"
+        $repoReleaseUrl = "https://api.github.com/repos/$repoOrgPlusRepo/releases/tags/$releaseVersion"
         $releaseData = Invoke-RestMethod $repoReleaseUrl -SkipHttpErrorCheck -StatusCodeVariable "statusCode"
         Write-Verbose "Status code: $statusCode"
 
